@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Glitch|Orbitron');
+
+.zigi_navbar{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        margin-right: 1rem;
+        img{
+            
+            height: 100px;
+        }
+    }  
+    .links{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+        p{
+            color: #7ab7f6;
+            font-family: 'Orbitron';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: capitalize;
+            margin: 0 1rem;
+            cursor: pointer;
+        }
+    
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
+        
+        .action{
+            display: flex;
+            padding: 0px 20px;
+            button{
+                width: 152px;
+                height: 58px;
+                border: none;
+                background: #f05218;
+                border-radius: 5px;
+                cursor: pointer;
+               p{
+                color: #fff;
+                font-weight: lighter;
+               }
+            }
+        }
+        
+    
+    }  
+    .menubar{
+       display: none;
+    }
+    .menubar{
+       
+        svg{
+            cursor: pointer;
+            color: #5d9ddf;
+          
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            background: #1c3957;
+            position: absolute;
+            padding: 2rem;
+            top: 60px;
+            right: 20px;
+            margin-top: 1rem;
+            min-width: 210px;
+            border-radius: 5px;
+            box-shadow: 0 0 5 rgba(0,0,0,0.2);
+            p{
+                margin: 0.7rem 0;
+            }
+        }
+    }
+  
+}
+
+}
+
+@media screen and (max-width: 1050px) {
+    .zigi_navbar{
+        .links{
+        .navbar{
+            display: none;
+        }
+        
+        .menubar{
+            display: flex;
+        }
+    }
+    }
+}
