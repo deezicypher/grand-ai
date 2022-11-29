@@ -28,33 +28,30 @@
             margin: 0 1rem;
             cursor: pointer;
         }
-    
+        button{
+            width: 152px;
+            height: 58px;
+            border: none;
+            background: #f05218;
+            border-radius: 5px;
+            cursor: pointer;
+           p{
+            color: #fff;
+            font-weight: lighter;
+           }
+        }
     .navbar{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
-
-        
-        .action{
-            display: flex;
-            padding: 0px 20px;
-            button{
-                width: 152px;
-                height: 58px;
-                border: none;
-                background: #f05218;
-                border-radius: 5px;
-                cursor: pointer;
-               p{
-                color: #fff;
-                font-weight: lighter;
-               }
-            }
-        }
-        
-    
     }  
+    .action{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+    }
     .menubar{
        display: none;
     }
@@ -62,7 +59,9 @@
        
         svg{
             cursor: pointer;
-            color: #5d9ddf;
+            color: #41adff;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
           
         }
         .container{
@@ -71,7 +70,7 @@
             background: #1c3957;
             position: absolute;
             padding: 2rem;
-            top: 60px;
+            top: 10%;
             right: 20px;
             margin-top: 1rem;
             min-width: 210px;
@@ -79,6 +78,13 @@
             box-shadow: 0 0 5 rgba(0,0,0,0.2);
             p{
                 margin: 0.7rem 0;
+            }
+            .action{
+                padding: 0px 0px;
+                button{
+                    height: 50px;
+                }
+            
             }
         }
     }
@@ -93,10 +99,61 @@
         .navbar{
             display: none;
         }
+
+        .action{
+            display: flex;
+        }
         
         .menubar{
             display: flex;
         }
     }
+    }
+}
+
+@media screen and (max-width:700px){
+    .zigi_navbar{
+        .links{
+        padding: 2rem 2rem;
+        
+    }
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    .zigi_navbar{
+        .links{
+        padding: 2rem 1rem;
+
+        .menubar{
+            .container{
+                .action{
+                    display: none;
+                }
+            }
+        }
+        }
+    }
+   }
+
+
+@media screen and (max-width:550px){
+    .zigi_navbar{
+        .links{
+        padding: 2rem 1rem;
+
+        .action{
+            display: none;
+        }
+        .menubar{
+            .container{
+                .action{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+            }
+        }
+        }
     }
 }

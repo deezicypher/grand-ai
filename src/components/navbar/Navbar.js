@@ -2,6 +2,9 @@ import React,{useState} from 'react';
 import logo from '../../assets/img/zigi1.png';
 import './navbar.scss';
 import {HiOutlineMenu} from 'react-icons/hi';
+import {CiCircleRemove} from 'react-icons/ci';
+
+
 
 const Menu = () => (
     <>
@@ -10,7 +13,7 @@ const Menu = () => (
                 <a href='#'><p>AI</p></a>
                 <a href='#'><p>Machine Learning</p></a>
                 <a href='#'><p>Blog</p></a>
-                <p>Sign In</p>
+                
     </>
 )
 
@@ -28,24 +31,33 @@ const Navbar = () => {
                 
                 <Menu/>
               
+            </div>
             <div className='action'>
-                
+            <p>Sign In</p>
                 <button type='button'>
                     <p>Sign Up</p>
                 </button>
             </div>
-            </div>
             <div className='menubar'>
-                <HiOutlineMenu  fontSize={30} />
+                {toggleMenu?
+                <CiCircleRemove fontSize={50} onClick={() => setToggleMenu(false)} />
+                :
+                <HiOutlineMenu  fontSize={50} onClick={() => setToggleMenu(true)} />
+}
                 {toggleMenu && (
-            <></>
+              <div className='container scaleup-center'>
+ 
+              <Menu/>
+              <div className='action'>
+              <p>Sign In</p>
+                <button type='button'>
+                    <p>Sign Up</p>
+                </button>
+            </div>
+                  </div>
             )
 }
-    <div className='container scaleup-center'>
  
-<Menu/>
-
-    </div>
             </div>
            
             </div>  
