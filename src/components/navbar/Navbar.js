@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import logo from '../../assets/img/zigi1.png';
+import logo from '../../assets/img/deezi1.png';
 import './navbar.scss';
 import {HiOutlineMenu} from 'react-icons/hi';
 import {CiCircleRemove} from 'react-icons/ci';
@@ -21,9 +21,9 @@ const Navbar = () => {
     const [toggleMenu,setToggleMenu] = useState(false)
 
   return (
-    <div className='zigi_navbar'>
+    <div className='deezi_navbar'>
             <div className='logo'>
-                    <img src={logo} alt='zigi' />
+                    <img src={logo} alt='deezi' />
             </div>
         <div className='links'>
         

@@ -4,7 +4,7 @@ import image from '../../assets/img/mind.png'
 
 const Header = () => {
   return (
-    <div className='zigi_header section_padding' id="home">
+    <div className='deezi_header section_padding' id="home">
      <div className='content'>
       <div className='container'>
       <h1 className='gradient_text'>AI Designs Quantum Physics Experiments beyond What Any Human Has Conceived</h1>     

@@ -1,6 +1,6 @@
 
 
-.zigi_navbar{
+.deezi_navbar{
     display: flex;
     padding: 10px 20px;
     justify-content: space-between;
@@ -94,7 +94,7 @@
 }
 
 @media screen and (max-width: 1050px) {
-    .zigi_navbar{
+    .deezi_navbar{
         .links{
         .navbar{
             display: none;
@@ -112,7 +112,7 @@
 }
 
 @media screen and (max-width:700px){
-    .zigi_navbar{
+    .deezi_navbar{
         .links{
         padding: 2rem 2rem;
         
@@ -121,7 +121,7 @@
 }
 
 @media only screen and (min-device-width: 768px) {
-    .zigi_navbar{
+    .deezi_navbar{
         .links{
         padding: 2rem 1rem;
 
@@ -138,7 +138,7 @@
 
 
 @media screen and (max-width:550px){
-    .zigi_navbar{
+    .deezi_navbar{
         .links{
         padding: 2rem 1rem;
 
