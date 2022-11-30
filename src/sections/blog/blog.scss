@@ -11,30 +11,15 @@
         }
     }
     .container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 30px;
+        display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
     }
-    .container>* {
-        flex: 1 1 320px;
-    }
+ 
 }
 
-@media screen and (max-width: 768px){
-    .deezi_blog{
-        .container{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .container>* {
-            flex: 1 1 300px;
-        }
-}
-}
+
+
 
 @media screen and (max-width:520px){
     .deezi_blog{

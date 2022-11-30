@@ -51,9 +51,12 @@ $hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 2
     }
 }
 
+
+
+
 @media screen and (max-width: 520px) {
     .deezi_article{
-  
+        padding-right: 1rem;
         .image{
             height: 150px;
             object-fit: contain;
@@ -75,7 +78,7 @@ $hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 2
             h3{
                 font-weight: 400;
             line-height: normal;
-            font-size: 12px;
+            font-size: 14px;
             }
         }
     }

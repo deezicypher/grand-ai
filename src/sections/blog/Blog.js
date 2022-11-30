@@ -16,6 +16,7 @@ const Blog = () => {
           <Article imgUrl={roboticmind} date={"30th Nov 22 "} title={"Some critics fear that the extensive use of advanced AI can have a negative effect on society."} />
           <Article imgUrl={robotai} date={"30th Nov 22 "} title={"Weak AI tends to be simple and single-task oriented, while strong AI carries on tasks that are more complex and human-like."} />
           <Article imgUrl={neural} date={"30th Nov 22 "} title={"Deep Learning is Hierarchical Feature Learning"}/>
+          <Article imgUrl={neural} date={"30th Nov 22 "} title={"Deep Learning is Hierarchical Feature Learning"}/>
       </div>
     </div>
   )
