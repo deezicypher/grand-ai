@@ -1,0 +1,44 @@
+
+$background:radial-gradient(circle at 50% 50%, rgba(162, 53, 14, 1) 1%, rgba(242, 118, 72, 1) 100%);
+
+
+.deezi_feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    max-width: 400px;
+    
+    .feature_container{
+        h1{
+            font-size: 18px;
+            margin-bottom: 1rem;
+        }
+        p{
+            font-size: 14px;
+            line-height: 1.5rem;
+        }
+    div{
+            width: 38px;
+            height: 3px;
+            background: $background;
+            box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .deezi_feature{
+        .feature_container{
+          
+                h1{
+                    font-size: 14px;
+                }
+                p{
+                    font-size: 12px;
+                    line-height: 1.2rem;
+                }
+            }
+        }
+}
