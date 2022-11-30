@@ -127,6 +127,8 @@
 
         .menubar{
             .container{
+                top:25%;
+            right: 5%;
                 .action{
                     display: none;
                 }
@@ -139,6 +141,7 @@
 
 @media screen and (max-width:550px){
     .deezi_navbar{
+        
         .links{
         padding: 2rem 1rem;
 
@@ -146,14 +149,17 @@
             display: none;
         }
         .menubar{
+        
             .container{
+                top:20%;
                 .action{
                     display: flex;
                     flex-direction: column;
                     align-items: flex-start;
                 }
             }
-        }
+ 
+    }
         }
     }
 }

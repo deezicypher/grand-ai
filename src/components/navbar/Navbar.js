@@ -39,6 +39,7 @@ const Navbar = () => {
                 </button>
             </div>
             <div className='menubar'>
+                <div className='wrapper'>
                 {toggleMenu?
                 <CiCircleRemove fontSize={50} onClick={() => setToggleMenu(false)} />
                 :
@@ -57,7 +58,7 @@ const Navbar = () => {
                   </div>
             )
 }
- 
+ </div>
             </div>
            
             </div>  

@@ -1,7 +1,7 @@
 import React from 'react'
 import './app.scss';
 import {Article,Brand,CTA,Feature,Navbar} from './components';
-import {About,Blog,Features,Footer,Header,Possibility,} from './sections';
+import {About,Blog,Features,Footer,Header,Potential,} from './sections';
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <Brand/>
       <About/>
       <Features/>
-      <Possibility/>
+      <Potential/>
       <CTA/>
       <Blog/>
       <Footer/>
