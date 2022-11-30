@@ -1,0 +1,97 @@
+ .deezi_features{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .features_heading{
+        flex: 2;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align: left;
+        margin-right: 10rem;
+       
+      
+    
+    }
+    .features_container{
+        flex: 4;
+        .deezi_feature{
+            max-width: 100%;
+            .feature_container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 15px;
+                margin-bottom: 2rem;
+                h1{
+                    min-width: 200px
+                }
+
+            }
+        }
+    }
+ }
+
+
+ @media screen and (max-width: 768px){
+        .deezi_features{
+            display: flex;
+            flex-direction: column;
+            .features_heading{
+                margin-bottom: 50px
+            }
+            .features_container{
+                .deezi_feature{
+                    .feature_container{
+                        h1{
+                            font-size: 16px;
+                        }
+                        p{
+                            font-size: 14px;
+                            line-height: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+ }
+
+ @media screen and (max-width: 520px){
+    .deezi_features{
+        display: flex;
+        flex-direction: column;
+        .features_heading{
+            margin-right: 0;
+            margin-bottom: 50px;
+            justify-content: center;
+            align-items: center;
+
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .features_container{
+            .deezi_feature{
+                .feature_container{
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 3px;
+                    h1{
+                        font-size: 14px;
+                        max-width: 100px;
+                    }
+                    p{
+                        
+                        font-size: 12px;
+                        line-height: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
