@@ -33,10 +33,11 @@ const Footer = () => {
           </div>
           <div className='links'>
             <h4>Get in Touch</h4>
-           <p><AiFillGithub fontSize={35}/>  deezitheviper</p>
             <p>deezitheviper@gmail.com</p>
           </div>
         </div>
+
+        <div className='copyright'><p>&copy; 2022 deezitheviper</p> </div>
     </div>
   )
 }
