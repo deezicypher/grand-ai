@@ -47,11 +47,10 @@ $hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 2
     .footer_links{
         background: $hbackground;
         display: flex;
-        justify-content: center;
-        align-items: center;
         gap: 40px;
         margin-top: 5rem;
         padding-bottom: 5rem;
+        justify-content: space-between;
         
         
         
@@ -65,6 +64,8 @@ $hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 2
             }
         }
         .links{
+            padding-top: 5rem;
+         
             h4{
                 color: #dff3f9;
             }
@@ -80,7 +81,7 @@ $hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 2
         justify-content: center;
         margin-top: 1rem;
         p{
-            font-size: 14px;
+            font-size: 10px;
         }
     }
 }
@@ -88,10 +89,9 @@ $hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 2
 @media  screen and (max-width: 768px){
     .deezi_footer{
         .footer_links{
-            display: flex;
-            justify-content: center;
+          
     .links{
-        margin-top: 3rem;
+        margin-top: 0rem;
         h4{
             color: #dff3f9;
         }
@@ -108,11 +108,11 @@ $hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 2
 @media  screen and (max-width: 520px){
     .deezi_footer{
         .footer_links{
-            display: flex;
             flex-direction: column;
-            justify-content: center;
-            gap: 10px;
+            padding: 0rem 1rem;
+            gap: 1px;
             .logo{
+                align-self: center;
                 img{
                     width: 150px;
                 }
@@ -122,10 +122,7 @@ $hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 2
                 }
             }
     .links{
-        margin-top: 3rem;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
+
         h4{
             color: #dff3f9;
         }
