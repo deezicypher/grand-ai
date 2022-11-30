@@ -14,11 +14,43 @@ $hbackground:-ms-radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(
 $hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 28, 47, 1) 100%);
 
 
-    
+$background:-moz-linear-gradient(90deg, rgba(59, 160, 240, 1) 0%, rgba(46, 163, 213, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+$background:-webkit-linear-gradient(90deg, rgba(59, 160, 240, 1) 0%, rgba(46, 163, 213, 1) 100%);
+
+    /* opera 11.10+ */
+$background:-o-linear-gradient(90deg, rgba(59, 160, 240, 1) 0%, rgba(46, 163, 213, 1) 100%);
+
+$background:-ms-linear-gradient(90deg, rgba(59, 160, 240, 1) 0%, rgba(46, 163, 213, 1) 100%);
+
+    /* global 94%+ browsers support */
+$background:linear-gradient(90deg, rgba(59, 160, 240, 1) 0%, rgba(46, 163, 213, 1) 100%);
+
 
 
 
 .header{
     background: $hbackground;
     width: 100%;
+}
+
+.gradient_text{
+    font-family: 'Orbitron';
+    font-weight: 100;
+    font-size: 36px;
+    background-color: #2196F3;
+    background-image: $background;
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+p{
+    color:#7ab7f6;
+    font-weight: 200;
+    font-size: 18px;
 }
