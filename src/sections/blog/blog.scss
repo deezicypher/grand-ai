@@ -1,0 +1,49 @@
+.deezi_blog{
+    display: flex;
+    flex-direction: column;
+    .heading{
+        width: 100%;
+        text-align: left;
+        margin-bottom: 5rem;
+        h1{
+            line-height: 75px;
+            font-weight: 800;
+        }
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .container>* {
+        flex: 1 1 320px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .deezi_blog{
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .container>* {
+            flex: 1 1 300px;
+        }
+}
+}
+
+@media screen and (max-width:520px){
+    .deezi_blog{
+        .heading{
+            margin-bottom: 2rem;
+            h1{
+                font-size: 20px;
+                line-height: normal;
+                font-weight: 500;
+            }
+        }
+    }
+}

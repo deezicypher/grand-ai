@@ -1,0 +1,82 @@
+$hbackground:-moz-radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 28, 47, 1) 100%);
+
+/* safari 5.1+,chrome 10+ */
+$hbackground:-webkit-radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 28, 47, 1) 100%);
+
+/* opera 11.10+ */
+$hbackground:-o-radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 28, 47, 1) 100%);
+
+/* ie 10+ */
+$hbackground:-ms-radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 28, 47, 1) 100%);
+
+/* global 92%+ browsers support */
+$hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 28, 47, 1) 100%);
+
+
+.deezi_article{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    background: $hbackground;
+    .image{
+        height: 250px;
+        background: $hbackground;
+        object-fit: contain;
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        padding: 1rem 1.5rem;
+        height: 100%;
+
+        p{
+            font-size: 12px;
+            font-weight: bold;
+        }
+        h3{
+            font-weight: 500;
+            line-height: 30px;
+            color: #cee8f0;
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .deezi_article{
+  
+        .image{
+            height: 150px;
+            object-fit: contain;
+            img{
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+    
+        }
+        .content{
+            padding: 1rem 0.5rem;
+            height: 100%;
+            p{
+                font-size: 8px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            }
+            h3{
+                font-weight: 400;
+            line-height: normal;
+            font-size: 12px;
+            }
+        }
+    }
+}
