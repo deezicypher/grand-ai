@@ -16,7 +16,10 @@ $background:-moz-radial-gradient(circle at 50% 50%, rgba(4, 45, 81, 1) 1%, rgba(
     display: flex;
     justify-content: center;
     align-items: center;
+  
     .container{
+        border: 1px solid rgba(3, 34, 63, 1);
+        border-radius: 1rem;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;

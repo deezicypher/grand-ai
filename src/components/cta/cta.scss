@@ -1,0 +1,66 @@
+$hbackground:-moz-radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 28, 47, 1) 100%);
+
+/* safari 5.1+,chrome 10+ */
+$hbackground:-webkit-radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 28, 47, 1) 100%);
+
+/* opera 11.10+ */
+$hbackground:-o-radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 28, 47, 1) 100%);
+
+/* ie 10+ */
+$hbackground:-ms-radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 28, 47, 1) 100%);
+
+/* global 92%+ browsers support */
+$hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 28, 47, 1) 100%);
+
+
+.deezi_cta{
+    border: 1px solid rgba(3, 34, 63, 1);
+    background: $hbackground;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 4rem;
+    border-radius: 2rem;
+    gap: 20px;
+    h3{
+        font-size: 25px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .cta_button{
+        button{
+            width: 152px;
+            height: 58px;
+            border: none;
+            background: #f05218;
+            border-radius: 0.6rem;
+            cursor: pointer;
+            color: #ffffff;
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .deezi_cta{
+        flex-direction: column;
+        margin: 1rem;
+        gap: 25px;
+        p{
+            font-size: 12px;
+        }
+        h3{
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .cta_button{
+            button{
+                width: 140px;
+                height: 38px;
+                font-size: 14px;
+            }
+        }
+    }
+}
