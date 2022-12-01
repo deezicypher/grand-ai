@@ -5,10 +5,10 @@ import oculus from '../../assets/img/metaquest.png';
 const Potential = () => {
   return (
     <div className='deezi_potential section_padding'>
-      <div className='image'>
+      <div className='potential_image'>
        <img src={oculus} alt="" />
       </div>
-      <div className='content'>
+      <div className='potential_content'>
         <h4 className='gradient_text'>Powered by AI: Oculus Insight</h4>
         <h1 className='gradient_text'>
         How it is Better than Everything that came Before
