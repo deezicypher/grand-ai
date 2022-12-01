@@ -5,7 +5,7 @@ import { tesladrive,machine,robotai, roboticmind, vrlady,neural } from '../../im
 
 const Blog = () => {
   return (
-    <div className='deezi_blog section_padding'>
+    <div className='deezi_blog section_padding' id="blog">
       <div className='heading'>
         <h1 className='gradient_text'>Discover more from our Blog </h1>
       </div>

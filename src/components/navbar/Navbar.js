@@ -9,10 +9,10 @@ import {CiCircleRemove} from 'react-icons/ci';
 const Menu = () => (
     <>
     <a href='#'><p>Home</p></a>
-                <a href='#'><p>About</p></a>
-                <a href='#'><p>AI</p></a>
-                <a href='#'><p>Machine Learning</p></a>
-                <a href='#'><p>Blog</p></a>
+                <a href='#about'><p>About</p></a>
+                <a href='#AI'><p>AI</p></a>
+                <a href='#machine'><p>Machine Learning</p></a>
+                <a href='#blog'><p>Blog</p></a>
                 
     </>
 )

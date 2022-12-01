@@ -4,7 +4,7 @@ import oculus from '../../assets/img/metaquest.png';
 
 const Potential = () => {
   return (
-    <div className='deezi_potential section_padding'>
+    <div className='deezi_potential section_padding' id="machine">
       <div className='potential_image'>
        <img src={oculus} alt="" />
       </div>

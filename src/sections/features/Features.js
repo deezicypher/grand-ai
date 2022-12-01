@@ -27,7 +27,7 @@ const featuresData = [
 
 const Features = () => {
   return (
-    <div className='deezi_features section_padding'>
+    <div className='deezi_features section_padding' id="AI">
      
       <div className='features_heading'>
             <h1 className='gradient_text'>The applications for artificial intelligence are endless.</h1>
