@@ -39,13 +39,14 @@ const Navbar = () => {
                 </button>
             </div>
             <div className='menubar'>
-                <div className='wrapper'>
+               
                 {toggleMenu?
                 <CiCircleRemove fontSize={50} onClick={() => setToggleMenu(false)} />
                 :
                 <HiOutlineMenu  fontSize={50} onClick={() => setToggleMenu(true)} />
 }
                 {toggleMenu && (
+                     <div className='wrapper'>
               <div className='container scaleup-center'>
  
               <Menu/>
@@ -56,10 +57,11 @@ const Navbar = () => {
                 </button>
             </div>
                   </div>
+                  </div>
             )
 }
  </div>
-            </div>
+           
            
             </div>  
   </div>
