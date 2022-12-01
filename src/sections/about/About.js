@@ -4,7 +4,7 @@ import {Feature} from '../../components'
 
 const About = () => {
   return (
-    <div className='deezi_about section_padding'>
+    <div className='deezi_about section_padding' id='about'>
       <div className='container section_padding'>
       
 

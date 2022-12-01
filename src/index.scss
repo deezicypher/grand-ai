@@ -14,7 +14,9 @@ $background:-ms-radial-gradient(circle at 50% 50%, rgba(7, 25, 41, 1) 1%, rgba(8
 /* global 92%+ browsers support */
 $background:radial-gradient(circle at 50% 50%, rgba(7, 25, 41, 1) 1%, rgba(8, 28, 47, 1) 100%);
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 * {
     box-sizing: border-box;

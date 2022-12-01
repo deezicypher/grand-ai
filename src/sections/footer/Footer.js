@@ -13,8 +13,8 @@ const Footer = () => {
           <button>Join Now</button>
         </div>
 <div className='github'>
-<p><AiFillGithub fontSize={55}/> </p>
-<p> Deezitheviper</p>
+<p><a href="https://github.com/deezitheviper"><AiFillGithub fontSize={55}/></a></p>
+<p> <a href="https://github.com/deezitheviper">Deezitheviper</a></p>
 </div>
         <div className='footer_links'>
           <div className='logo'>
@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           <div className='links'>
             <h4>Get in Touch</h4>
-            <p>deezitheviper@gmail.com</p>
+            <p><a href="mailto:deezitheviper@gmail.com">deezitheviper@gmail.com</a></p>
           </div>
         </div>
 
