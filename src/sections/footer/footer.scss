@@ -16,7 +16,7 @@ $hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 2
 .deezi_footer{
     display: flex;
     flex-direction: column;
-   
+    
     .heading{
         width: 100%;
         text-align: center;
@@ -50,6 +50,7 @@ $hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 2
         gap: 40px;
         margin-top: 5rem;
         padding-bottom: 5rem;
+        padding-right: 1rem;
         justify-content: space-between;
         
         
@@ -107,6 +108,11 @@ $hbackground:radial-gradient(circle at 50% 50%, rgba(3, 34, 63, 1) 0%, rgba(8, 2
 
 @media  screen and (max-width: 520px){
     .deezi_footer{
+        .heading{
+            h1{
+                font-size: 20px;
+            }
+        }
         .footer_links{
             flex-direction: column;
             padding: 0rem 1rem;
